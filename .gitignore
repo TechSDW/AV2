@@ -1,0 +1,15 @@
+node_modules/
+
+dist/
+build/
+
+*.log
+
+.env
+
+.cache/
+.eslintcache
+
+.vscode/
+.DS_Store
+Thumbs.db
