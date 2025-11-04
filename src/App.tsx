@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Login from './components/Login';
 import Home from './components/Home';
-import Aeronaves from './components/Aeronaves';
-import Funcionarios from './components/Funcionarios';
-import Relatorios from './components/Relatorios';
-import ImportarExportar from './components/ImportarExportar';
+import Aeronaves from './components/Aeronave/Aeronaves';
+import Funcionarios from './components/Funcionarios/Funcionarios';
+import Relatorios from './components/Relatorios/Relatorios';
+import ImportarExportar from './components/ImportarExportar/ImportarExportar';
 
 type Page = 'home' | 'aeronaves' | 'funcionarios' | 'relatorios' | 'importar-exportar';
 

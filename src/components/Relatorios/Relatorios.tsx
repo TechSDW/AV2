@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Checkbox } from './ui/checkbox';
-import { Label } from './ui/label';
+import { Checkbox } from '../ui/checkbox';
+import { Label } from '../ui/label';
 
 type RelatoriosProps = {
   onNavigate: (page: 'home' | 'aeronaves' | 'funcionarios' | 'relatorios' | 'importar-exportar') => void;
